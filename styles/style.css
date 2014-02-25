@@ -1,0 +1,293 @@
+html,body
+{
+	margin:0px;
+	padding: 0px;
+}
+
+@font-face
+{
+	font-family: "DINCond";
+	src:url('../DINCond-Medium.otf') ;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: "Helvetica";
+	src:url('../Helvetica Bold.ttf') ;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.section
+{
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-size: 100% 100%;
+}
+
+#section0
+{
+	/*background: url('../images/pageOne.png') no-repeat center center fixed; */
+	background-image: url(../images/pageOne.png);
+	font-family: "DINCond";
+	color:#ffffff;
+
+}
+
+#section1
+{
+	background-image: url(../images/pageTwo-whole.png);
+	
+}
+
+#section2
+{
+	background-image: url(../images/pageThree.png);
+}
+
+#section3
+{
+	
+}
+
+.pageFour
+{
+	
+	background-image: url(../images/pageFour.png);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-size: 100% 100%;
+  	height:66.6666667%;
+  	width:100%;
+}
+
+.diamond
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:90px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 68px;
+	height: 60px;
+}
+
+.pageOneContent
+{
+	position: relative;
+	width:685px;
+	height:90px;
+	top:495px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.playButton
+{
+	width:90px;
+	height: 90px;
+	margin-left: 40px;
+	margin-right: 40px;
+	float:left;
+}
+
+.textLeft
+{
+	width:256px;
+	height:70px;
+	float: left;
+
+}
+
+.textLeft h2
+{
+	margin-top: 0px;
+	font-size: 36px;
+	font-weight: 200;	
+	float: right;
+}
+
+.text .down
+{
+	margin-top: -30px;
+}
+
+.textRight
+{
+	width:259px;
+	height:70px;
+	float:left;
+}
+
+.textRight h2
+{
+	margin-top: 0px;
+	font-size: 36px;
+	font-weight: 200;	
+	float: left;
+}
+
+.pageOneFooter
+{
+	position: absolute;
+	width:200px;
+	height:100px;
+	margin-right: auto;
+	margin-left: auto;
+	left: 0;
+	right: 0;
+	top:700px;
+	text-align: center;
+	font-size: 10px;
+	font-family: "Helvetica";
+}
+
+.scrollPoint
+{
+	width:6px;
+	height: 38px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.cardsBox
+{
+	width:940px;
+	height:338px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 90px;
+}
+
+.card
+{
+	width:240px;
+	height: 338px;
+	float:left;
+}
+
+.cardBack
+{
+	background: url(../images/cardBack.png) no-repeat;
+	margin-right: 110px;
+}
+
+.threeOfDiamonds
+{
+	background: url(../images/threeOfDiamonds.png) no-repeat;
+	margin-right: 110px;
+}
+
+.JOfSpades
+{
+	background: url(../images/JOfSpades.png) no-repeat;
+}
+
+.pageTwoContent 
+{
+	margin-top: 90px;
+	display: block;
+	width: 940px;
+	height:300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pageTwoContent h2
+{
+	font-size: 30px;
+}
+
+.pageTwoContent p
+{
+	font-size: 20px;
+}
+
+.pageTwoContent h2,
+.pageTwoContent p
+{
+	font-family: "DINCond";
+	color:#495059;
+}
+
+.pageTwoFooter
+{
+	width:940px;
+	height:200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/*Page four*/
+
+.pageFourFooter
+{
+	height:360px;
+	background: #ffffff;
+	width:100%;
+}
+
+.pFour
+{
+	margin: 0 auto;
+	width:960px;
+	height:100%;	
+}
+
+.pic
+{
+	margin: 0 auto;
+	width:960px;
+	height:180px;
+	padding-top:210px;
+
+}
+
+.pic img{
+	display: block;
+	float: left;
+}
+
+/*.i1
+{
+	margin-right: 110px;
+	margin-left: 110px;	
+}*/
+
+.pic img:nth-child(2)
+{
+	margin-right: 110px;
+	margin-left: 110px;
+}
+
+.downloadIcon
+{
+	margin-top: 60px;
+	height:90px;
+	width:100%;
+	font-family: "Helvetica";
+}
+
+.downloadwallpaper
+{
+	background: url(../images/downloadwallpaper.png);
+	
+	height: 90px;
+	width:89px;
+	margin:0 auto;
+}
+
+.downloadIcon p
+{
+	color:#ffffff;
+}
